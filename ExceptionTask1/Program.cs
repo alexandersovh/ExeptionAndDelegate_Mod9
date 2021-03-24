@@ -8,8 +8,8 @@ namespace ExceptionTask1
         {
 
             Console.WriteLine("программва запущена\n");
+
             MyException my = new MyException("Cлучилось страшное! Но мы уже знаем об этом");
-            
             var uri = new UriFormatException(); 
             var noMethod = new NotSupportedException();
             var exMethod = new InvalidOperationException();
