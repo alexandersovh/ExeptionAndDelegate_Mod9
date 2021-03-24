@@ -1,6 +1,6 @@
-#ExceptionTask1
+# ExceptionTask1
 сделал масив с исключениями, вывкл его в кансоль
-#DelegateTasc2
+# DelegateTasc2
 с помощю сабытия выбрал тип сортировк, 
 * 1 - А-Я
 * 2 - Я-А
