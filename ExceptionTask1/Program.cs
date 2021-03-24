@@ -43,6 +43,11 @@ namespace ExceptionTask1
                 {
                     Console.WriteLine("Индекс находится за пределами границ массива или коллекции");
                 }
+                finally
+                {
+                    Console.WriteLine("Нажмите Enter");
+                    Console.ReadKey();
+                }
 
             }
             Console.WriteLine("\nпрограмма закончила работу");
