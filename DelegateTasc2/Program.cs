@@ -6,7 +6,12 @@ namespace DelegateTasc2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("начнем");
+
+            NamberReade nr = new NamberReade();
+            nr.GoNumr();
+
+            Console.ReadLine();
         }
     }
 }
